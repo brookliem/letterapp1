@@ -1,0 +1,82 @@
+{
+    "menu": [
+        {
+            "menuHeader": "Data"
+        },
+        {
+            "url": "/",
+            "name": "Dashboard",
+            "icon": "menu-icon tf-icons bx bxs-archive-in",
+            "slug": "dashboard"
+        },
+        {
+            "menuHeader": "Template"
+        },
+        {
+            "name": "Surat Pemberitahuan Cessie",
+            "icon": "menu-icon tf-icons bx bx-file",
+            "slug": "menu",
+            "submenu": [
+                {
+                    "url": "/select_konven_cessie",
+                    "name": "Konven",
+                    "slug": "#"
+                },
+                {
+                    "url": "#",
+                    "name": "Syariah",
+                    "slug": "#"
+                }
+            ]
+        },
+        {
+            "name": "Surat Pemberitahuan Produk Mortgage",
+            "icon": "menu-icon tf-icons bx bx-file",
+            "slug": "menu",
+            "submenu": [
+                {
+                    "url": "#",
+                    "name": "Konven",
+                    "slug": "#"
+                },
+                {
+                    "url": "#",
+                    "name": "Syariah",
+                    "slug": "#"
+                }
+            ]
+        },
+        {
+            "menuHeader": "Master"
+        },
+        {
+            "name": "User Setting",
+            "icon": "menu-icon tf-icons bx bx-file",
+            "slug": "menu",
+            "submenu": [
+                {
+                    "url": "#",
+                    "name": "User Data",
+                    "slug": "#"
+                },
+                {
+                    "url": "#",
+                    "name": "Add User",
+                    "slug": "#"
+                }
+            ]
+        },
+        {
+            "name": "Template Setting",
+            "icon": "menu-icon tf-icons bx bx-file",
+            "slug": "menu",
+            "submenu": [
+                {
+                    "url": "#",
+                    "name": "Edit Template",
+                    "slug": "#"
+                }
+            ]
+        }
+    ]
+}

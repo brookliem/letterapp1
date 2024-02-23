@@ -1,0 +1,13 @@
+{
+    "menu": [
+        {
+            "menuHeader": "Data"
+        },
+        {
+            "url": "/",
+            "name": "Data IM",
+            "icon": "menu-icon tf-icons bx bxs-archive-in",
+            "slug": "dashboard"
+        }
+    ]
+}
